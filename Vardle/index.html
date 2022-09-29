@@ -1,0 +1,194 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+ 
+    <!-- 
+      <div style="float:left"><img src="images/hamburger-day.png" class="leftNav"></div>
+    -->
+
+    <div style="float:left"><img id="myImg1" src="images/question-day.png" alt="HowTo" class="leftNav"></div>
+    <div class="myTitle">Vardle</div>
+    <div style="float:right"><img id="myImg2" src="images/settings-day.png" alt="Settings"  class="rightNav" ></div>
+    <div style="float:right"><img id="myImg3" src="images/chart-day.png" alt="Settings"  class="rightNav"></div>
+    
+    <hr>
+
+    <br>
+    <br>
+
+    <div id="container">
+        <div id="game">
+          <div id="map"></div>
+
+          <table style = "width: 325px; align-self: center;">
+            <tr>
+              <th class = "rowTable"><div class = "WordLabels">Prefix</div></th>
+              <th class = "rowTable"><div class = "WordLabels">Location</div></th>
+            </tr>
+          </table>
+
+          <div id="board-container">
+            <div id="board"></div>
+          </div>
+  
+          <div id="keyboard-container">
+            <div class="keyboard-row">
+              <button data-key="q"class="display">q</button>
+              <button data-key="w"class="display">w</button>
+              <button data-key="e"class="display">e</button>
+              <button data-key="r"class="display">r</button>
+              <button data-key="t"class="display">t</button>
+              <button data-key="y"class="display">y</button>
+              <button data-key="u"class="display">u</button>
+              <button data-key="i"class="display">i</button>
+              <button data-key="o"class="display">o</button>
+              <button data-key="p"class="display">p</button>
+            </div>
+            <div class="keyboard-row">
+              <div class="spacer-half"></div>
+              <button data-key="a">a</button>
+              <button data-key="b"class="displayPrefix">b</button>
+              <button data-key="c"class="displayPrefix">c</button>
+              <button data-key="mid" class="wide-button displayPrefix">mid</button>
+
+              <button data-key="s"class="display">s</button>
+              <button data-key="d"class="display">d</button>
+              <button data-key="f"class="display">f</button>
+              <button data-key="g"class="display">g</button>
+              <button data-key="h"class="display">h</button>
+              <button data-key="j"class="display">j</button>
+              <button data-key="k"class="display">k</button>
+              <button data-key="l"class="display">l</button>
+              <div class="spacer-half"></div>
+            </div>
+            <div class="keyboard-row">
+              <button data-key="enter" class="wide-button">Enter</button>
+              <button data-key="z"class="display">z</button>
+              <button data-key="x"class="display">x</button>
+              <button data-key="c"class="display">c</button>
+              <button data-key="v"class="display">v</button>
+              <button data-key="b"class="display">b</button>
+              <button data-key="n"class="display">n</button>
+              <button data-key="m" class="display">m</button>
+              <button data-key="del" class="wide-button">Del</button>
+            </div>
+            <div class="keyboard-row">
+              <button data-key=" " class="display"> </button>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <!-- The Modal -->
+    <div id="HowToModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-content">   
+
+          <h2 style="color: white; text-align: center;">
+              How To Play
+          </h2>
+
+          <img src="images/settings-day.png" style="display: block; margin-left: auto; margin-right: auto; width: 10%;">
+          
+          <table style = "width: 100%; align-self: center;">
+            <tr>
+              <th colspan="2"><p>A posistion on a Valorant map will be displayed, correctly identifiing the location will result in a win. Upon answering incorrectly, you will be prompted further with additional details from your answer.</p></th>
+            </tr>
+            <tr>
+              <th><img src="images/greenBoxExample.png" alt="Green box example"></th>
+              <th style="text-align: left"><p>A green box indicates the the letter is in the word and in the correct spot.</p></th>
+            </tr>
+            <tr>
+              <th><img src="images/yellowBoxExample.png" alt="Yellow box example"></th>
+              <th style="text-align: left"><p>A yellow box indicates that the letter is in the word but in the incorrect spot.</p></th>
+            </tr>
+            <tr>
+              <th><img src="images/greyBoxExample.png" alt="Grey box example"></th>
+              <th style="text-align: left;"><p>A grey box indicates that the letter is not in the word.</p></th>
+              </th>
+            </tr>
+            <tr>
+              <th>&nbsp;</th>
+            </tr>
+            <tr>
+              <th><img src="images/prefixExample.png" alt="prefix example" style="border: 5px solid black;"></th>
+              <th><img src="images/locationExample.png" alt="location example" style="border: 5px solid black;"></th>
+            </tr>
+            <tr>
+              <th><p>The prefix refers to the site location of the callout, these are limited to a,b,c and mid. These will not change color until the word is solved.</p></th>
+              <th><p>The location is the main portion of the callout, each of these spaces will change color.</p></th>
+            </tr>
+            <tr>
+              <th colspan="2"><p style="margin-top: 40px">A new location will appear everyday, good luck!</p></th>
+            </tr>
+
+          </table>
+      </div>
+    </div>
+
+    <div id="SettingsModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+
+        <h2 style="color: white; text-align: center;">
+            Settings
+        </h2>
+
+        <img src="images/settings-day.png" style="display: block; margin-left: auto; margin-right: auto; width: 10%;">
+   
+        <h2 style="color: white; text-align: center;">
+          Coming Soon!
+        </h2>
+        <p style="text-align:center">Sorry for the inconvenience!</p>
+
+      </div>
+    </div>
+
+    <div id="ChartModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-content">
+
+      <h2 style="color: white; text-align: center;">
+          Analytics
+      </h2>
+
+      <img src="images/chart-day.png" style="display: block; margin-left: auto; margin-right: auto; width: 10%;">
+ 
+      <h2 style="color: white; text-align: center;">
+        Coming Soon!
+      </h2>
+      <p style="text-align:center">Sorry for the inconvenience!</p>
+
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="exampleMaps.json"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

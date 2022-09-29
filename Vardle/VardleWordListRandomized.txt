@@ -1,0 +1,170 @@
+a port			Bind
+	a lobby			Ascent
+metal doors			Breeze
+	a link			Pearl
+b screen			Pearl
+a rope			Fracture
+	b hall			Bind
+b port			Bind
+	a main			Pearl
+b alley			Split
+	mid courtyard		Ascent
+	a short			Haven
+	a main			Split
+	elbow				Bind
+heaven			Bind
+b canteen			Fracture
+mid boiler			Icebox
+link				Bind
+mid mail			Split
+mid wood doors		Breeze
+a tunnel			Haven
+	mid courtyard		Haven
+	b tower			Pearl
+b door			Haven
+	b main			Pearl
+screens			Split
+	cubby				Bind
+mid nest			Breeze
+mid shops			Pearl
+top mid			Split
+a hall			Fracture
+	a lobby			Split
+window			Bind
+	a lobby			Haven
+	a heaven			Haven
+c lobby			Haven
+	b tunnel			Pearl
+a dugout			Pearl
+hall				Breeze
+	b hall			Icebox		
+arches			Breeze
+c long			Haven
+	a ramp			Haven
+mid stack			Breeze
+c link			Haven
+	cave				Breeze
+pillar			Bind
+mid pillars			Breeze
+a window			Ascent
+	mid doors			Pearl
+mid connector		Pearl
+mid pallet			Icebox
+a art				Pearl
+switch			Breeze
+b elbow			Breeze
+logs				Haven
+b ramp			Pearl
+a door			Fracture
+a nest			Icebox
+water				Pearl
+	b back			Ascent
+	garden			Haven
+b bench			Fracture
+	b hall			Pearl
+b garage			Icebox
+	a link			Haven
+mid link			Ascent
+mid catwalk			Ascent
+	mid doors			Haven
+	a rafters			Split
+towers			Haven
+	b lobby			Ascent
+b tube			Icebox
+mid blue			Icebox
+	b main			Split
+	mid bottom			Ascent
+	a rafters			Ascent
+c window			Haven
+	b tunnel			Breeze
+	bottom mid			Haven
+b hut				Icebox
+	a rafters			Icebox
+	a lobby			Breeze
+b yellow			Icebox
+	mid bottom			Breeze
+defender side records	Pearl
+plat				Haven
+a long			Haven
+	a heaven			Split
+a pipes			Icebox
+a sewer			Split
+b cubby			Bind
+	b tower			Fracture
+garage			Haven
+a belt			Icebox
+connector			Haven
+mid chute			Breeze
+b short			Bind
+a shop			Breeze
+back				Haven
+	a main			Ascent
+b snowman			Icebox
+b tree			Fracture
+	a main			Fracture
+mid vent			Split
+	a link			Fracture
+showers			Bind
+a flowers			Pearl
+u hall			Bind
+	b hall			Fracture
+	b link			Fracture
+	b lobby			Split
+a wine			Ascent
+b green			Icebox
+b portal exit		Bind
+a bridge			Breeze
+b orange			Icebox
+rope				Fracture
+b rafters			Split
+	b back			Icebox
+	cubby				Haven
+	cave				Bind
+b wall			Breeze
+pyramids			Breeze
+	mid top			Pearl
+	b link			Pearl
+b window			Breeze
+	b main			Ascent
+b stairs			Split
+b heaven			Split
+snake				Breeze
+	b main			Breeze
+a garden			Ascent
+b long			Bind
+truck				Bind
+	elbow				Split
+a screen			Icebox
+b generator			Fracture
+hookah			Bind
+	mid top			Ascent
+heaven stairs		Haven
+mid pizza			Ascent
+	garden			Bind
+tower				Bind
+	a ramp			Split
+a dish			Fracture
+	b lobby			Bind
+	b tunnel			Fracture
+vent				Bind
+	b main			Fracture
+a drop			Fracture
+mid cannon			Breeze
+	mid top			Breeze
+b club			Pearl
+a secret			Pearl
+a portal exit		Bind
+	a lobby			Bind
+	b link			Split
+mid cubby			Ascent
+mid window			Haven
+mid place			Pearl
+mid market			Ascent
+back b			Haven
+a restraunt			Pearl
+	a short			Bind
+b kitchen			Icebox
+b arcade			Fracture
+	a link			Ascent
+	bottom mid			Split
+	b back			Breeze
